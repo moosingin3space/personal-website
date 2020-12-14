@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #222222;
+    color: #454545;
+    line-height: 1.4;
+    font-family: 'Merriweather', Georgia, serif;
+}
+
+.wrapper {
+    background-color: #dedede;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0.7em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #0077aa;
+}
+
+.external-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.external-links > a {
+    text-decoration: unset;
+}

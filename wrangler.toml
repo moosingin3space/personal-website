@@ -1,0 +1,10 @@
+name = "homepage"
+type = "webpack"
+workers_dev = false
+
+[site]
+bucket = "./my-site/public"
+entry-point = "workers-site"
+
+[env.production]
+route = "mooshq.xyz/*"
