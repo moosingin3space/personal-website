@@ -11,7 +11,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2.0.0
             - name: install zola
-              run: 'snap install --edge zola'
+              run: 'sudo snap install --edge zola'
             - name: build zola website
               run: 'cd my-site && zola build'
             - name: Deploy
